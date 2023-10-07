@@ -1,0 +1,51 @@
+# Vivado settings and project files
+/.Xil/
+/.metadata/
+*.cache
+*.jou
+*.log
+*.str
+*.backup
+*.pb
+*.hdf
+webtalk.*
+usage_statistics_webtalk.*
+
+# Compiled and generated files
+project_*.runs/
+project_*.srcs/
+project_*.sim/
+*.bit
+*.bin
+*.dcp
+*.ltx
+*.mcs
+*.prm
+*.bxml
+*.html
+*.xml
+*.xpr
+*.tcl
+*.tcl.jou
+*.tcl.log
+*.tcl.backup
+
+# Temporary and build files
+webtalk.log
+.xil/
+iseconfig/
+hw_handoff/
+.simulate/
+.tmp/
+.bd/
+out/
+*.xdc
+
+# Vivado project specific files
+*.xise
+*.xpr
+*.xwbt
+
+# Vivado project backup files
+*.backup*
+*.*_backup

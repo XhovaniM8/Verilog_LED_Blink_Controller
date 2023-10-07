@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "D:/Documents/FPGA-Projects/Verilog_LED_Blink_Controller/LED_Blinker/LED_Blinker.srcs/sources_1/new/LED_Blinker.v" --include "../../../../LED_Blinker.srcs/sources_1/new" \
+"../../../../LED_Blinker.srcs/sim_1/new/LED_Blinker.tb" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
